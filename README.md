@@ -4,8 +4,8 @@
 
 </p>
 
-<h1>Resetting Passwords with Active Directory</h1>
-The primary objective of this project is to establish a secure, efficient, and standardized procedure for managing user password resets within an Active Directory environment. This process aims to minimize user downtime, maintain the integrity of user accounts, and uphold organizational security policies. By leveraging Active Directory Users and Computers (ADUC), the goal is to ensure that all password reset requests are handled promptly and accurately, with proper verification and documentation.<br />
+<h1>Active Directory Account Security Management</h1>
+The objective of this project is to enhance the security, stability, and usability of user accounts within the organization’s Active Directory (AD) environment. This involves configuring account lockout policies to defend against unauthorized access, managing password resets, addressing unexpected account logouts, and proactively monitoring system logs to identify and respond to potential issues in real-time.<br />
 
 <h2>Environments and Technologies Used</h2>
 
