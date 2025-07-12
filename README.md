@@ -54,20 +54,67 @@ The primary objective of this project is to establish a secure, efficient, and s
     - On the client machine, open command prompt and type gpupdate /force then press enter.
 
 
-<h2>2. Dealing with Account Logouts  (DC-1) in Azure</h2>
+<h2>2. Dealing with Account Logouts </h2>
+
+1. Pick a user and attempt to log in 6 times with a bad password
+2. Unlocking the account
+   a. Go to domain Controller and go to Active Directory Users and Computers
+   b. Right-click mydomain.com and press Find
+   c. Type the name of the user in the Name box
+   d. Double click the user
+   e. Go to the Account
+   f. Check the Unlock Account box and then press apply
+3. Re-login into the user account on the client
 
 
 
+<img width="555" height="147" alt="image" src="https://github.com/user-attachments/assets/a4a75d82-e32a-4077-abe6-4c5a58f634e7" />
 
+<img width="407" height="537" alt="image" src="https://github.com/user-attachments/assets/cdd3c03a-4b3d-4c82-9cd1-b3a376440c8e" />
 
+<h2>2. Resetting Passwords </h2>
 
+1. Reset Password
+  a. Go to domain Controller and go to Active Directory Users and Computers
+ b. Right-click mydomain.com and press Find
+   c. Type the name of the user in the Name box
+   d. Right-click the user and press Reset Password
+   e. Type in new password
+   
+<img width="379" height="254" alt="image" src="https://github.com/user-attachments/assets/18b484f0-24c3-4d11-8fa3-7634214e7493" />
 
+<h2>3. Disabling and Enabling Accounts </h2>
 
+1. Disable Account
+  a. Go to the domain Controller and go to Active Directory Users and Computers
+  b. Right-click mydomain.com and press Find
+  c. Type the name of the user in the Name box
+  d. Right-click the user and press Disable Account
 
+<img width="557" height="125" alt="image" src="https://github.com/user-attachments/assets/44a47c9c-0c7f-416e-92c3-72f1eed7aaca" />
+2. Enable Account
+ a. Go to the domain Controller and go to Active Directory Users and Computers
+  b. Right-click mydomain.com and press Find
+  c. Type the name of the user in the Name box
+  d. Right-click the user and press Enable Account
 
+<h2>4. Observing Logs </h2>
 
+  1. Observing Logs as the Domain Controller
+     a. Type into search box eventvwr.msc and press it
+     b. Go into Windows Logs > Security
+     c. To find logs for a particular account right-click Security, press Find,bar.mav and type in the particular user
 
+  <img width="1560" height="947" alt="image" src="https://github.com/user-attachments/assets/656ffb7c-a72d-43c8-9fa3-a7fc0fd3c723" />
 
+     
+  3. Observing Logs as the Client
+     a. Type into the search box eventvwr.msc and run it as an administrator
+     b. Type in Admin Credentials
+     b. Go into Windows Logs > Security
+     c. To find logs for a particular account right-click Security press find and type in the particular user
+
+<img width="1564" height="944" alt="image" src="https://github.com/user-attachments/assets/3466d848-e12d-4e88-be0b-54da9604b612" />
 
 
 
