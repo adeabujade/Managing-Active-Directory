@@ -63,6 +63,10 @@ The primary objective of this project is to establish a secure, efficient, and s
 <h2>2. Dealing with Account Logouts </h2>
 
 **1.Pick a user and attempt to log in 6 times with a bad password**
+
+
+<img width="555" height="147" alt="image" src="https://github.com/user-attachments/assets/a4a75d82-e32a-4077-abe6-4c5a58f634e7" />
+
    
 **2. Unlocking the account**
    
@@ -72,14 +76,10 @@ The primary objective of this project is to establish a secure, efficient, and s
        d. Double click the user
        e. Go to the Account
        f. Check the Unlock Account box and then press Apply
+
+ <img width="407" height="537" alt="image" src="https://github.com/user-attachments/assets/cdd3c03a-4b3d-4c82-9cd1-b3a376440c8e" />
    
 **3. Re-login into the user account on the client**
-
-
-
-<img width="555" height="147" alt="image" src="https://github.com/user-attachments/assets/a4a75d82-e32a-4077-abe6-4c5a58f634e7" />
-
-<img width="407" height="537" alt="image" src="https://github.com/user-attachments/assets/cdd3c03a-4b3d-4c82-9cd1-b3a376440c8e" />
 
 <h2>2. Resetting Passwords </h2>
 
